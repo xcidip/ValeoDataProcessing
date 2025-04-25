@@ -1,8 +1,11 @@
 import csv
 import random
 import argparse
+import os
 
 def generate_sensor_data(output_path):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
     timestamp = 100.0  # seconds
     speed = 60.0 # km/h
 

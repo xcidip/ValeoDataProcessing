@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c12ef7-6010-45f0-83cd-6a8f92eed246" name="Changes" comment="Main function of f_cam.py added">
+    <list default="true" id="a5c12ef7-6010-45f0-83cd-6a8f92eed246" name="Changes" comment="Main function of sensor.py added">
       <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sensor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_cam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/sensor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.f_cam.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -63,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745599083856</updated>
-      <workItem from="1745599084877" duration="3370000" />
+      <workItem from="1745599084877" duration="7989000" />
     </task>
     <task id="LOCAL-00001" summary="Main function of f_cam.py added">
       <option name="closed" value="true" />
@@ -73,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745601999295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Main function of sensor.py added">
+      <option name="closed" value="true" />
+      <created>1745602578485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745602578485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,9 +92,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main function of f_cam.py added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main function of f_cam.py added" />
+    <MESSAGE value="Main function of sensor.py added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main function of sensor.py added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Valeo$f_cam.coverage" NAME="f_cam Coverage Results" MODIFIED="1745601911945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Valeo$main.coverage" NAME="main Coverage Results" MODIFIED="1745606948389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Valeo$f_cam.coverage" NAME="f_cam Coverage Results" MODIFIED="1745606920215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

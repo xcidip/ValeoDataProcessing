@@ -1,8 +1,11 @@
 import argparse
 import csv
 import random
+import os
 
 def generate_f_cam_data(output_path):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
     timestamp = 100.0  # Start timestamp in seconds
     frame_id = 100
     speed = 60.0 # in km/h
